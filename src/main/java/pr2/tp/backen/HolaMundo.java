@@ -1,6 +1,5 @@
 package pr2.tp.backen;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 
@@ -9,7 +8,7 @@ public class HolaMundo {
 
     @GetMapping("/hola")
     public String greeting() {
-        return "<h1>Hola Mundo</h1>";
+        return "<h1>Hola Mundo de Majo</h1>";
     }
 }
 
