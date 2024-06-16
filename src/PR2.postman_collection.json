@@ -1,0 +1,602 @@
+{
+	"info": {
+		"_postman_id": "b253de89-e296-46cb-9aab-5e066c3cd726",
+		"name": "PR2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33500963"
+	},
+	"item": [
+		{
+			"name": "Alumno",
+			"item": [
+				{
+					"name": "Search all",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/alumno",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"alumno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search ID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/alumno/3",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"alumno",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/alumno/2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"alumno",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomb_A\": \"Pepito\",\r\n    \"apellido_A\": \"Perez\",\r\n    \"fech_Nac\": \"2022-01-14\",\r\n    \"direc_A\": \"Juana de lara\",\r\n    \"nivel_A\": \"Nivel Inicial\",\r\n    \"ciclo_A\": \"Prescolar\",\r\n    \"especializacion_A\": \" \",\r\n    \"estado_A\": \"Activo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/alumno",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"alumno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id_Alumno\":1,\r\n    \"nomb_A\": \"Pepito1\",\r\n    \"apellido_A\": \"Perez\",\r\n    \"fech_Nac\": \"2022-01-14\",\r\n    \"direc_A\": \"Juana de lara\",\r\n    \"nivel_A\": \"Nivel Inicial\",\r\n    \"ciclo_A\": \"Prescolar\",\r\n    \"especializacion_A\": \" \",\r\n    \"estado_A\": \"Activo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/alumno",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"alumno"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Contactos",
+			"item": [
+				{
+					"name": "Search all",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/Contact",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"Contact"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search ID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/Contact/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"Contact",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/Contact/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"Contact",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomb_Contacto\": \"Carlos\",\r\n    \"apellido_Contacto\": \"Gonzalez\",\r\n    \"tipo_Relacion\": \"Colega\",\r\n    \"telef_Contacto\": \"987654321\",\r\n    \"direc_Contacto\": \"456 Avenida Siempre Viva\",\r\n    \"encargado\": false\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/Contact",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"Contact"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id_contacto\": 1,\r\n    \"nomb_Contacto\": \"Pablo\",\r\n    \"apellido_Contacto\": \"Gonzalez\",\r\n    \"tipo_Relacion\": \"Colega\",\r\n    \"telef_Contacto\": \"987654321\",\r\n    \"direc_Contacto\": \"456 Avenida Siempre Viva\",\r\n    \"encargado\": false\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/Contact",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"Contact"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Curso",
+			"item": [
+				{
+					"name": "Search all",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/alumno",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"alumno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search ID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/alumno/3",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"alumno",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/course/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomb_A\": \"Pepito\",\r\n    \"apellido_A\": \"Perez\",\r\n    \"fech_Nac\": \"2022-01-14\",\r\n    \"direc_A\": \"Juana de lara\",\r\n    \"nivel_A\": \"Nivel Inicial\",\r\n    \"ciclo_A\": \"Prescolar\",\r\n    \"especializacion_A\": \" \",\r\n    \"estado_A\": \"Activo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/alumno",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"alumno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id_Alumno\":1,\r\n    \"nomb_A\": \"Pepito1\",\r\n    \"apellido_A\": \"Perez\",\r\n    \"fech_Nac\": \"2022-01-14\",\r\n    \"direc_A\": \"Juana de lara\",\r\n    \"nivel_A\": \"Nivel Inicial\",\r\n    \"ciclo_A\": \"Prescolar\",\r\n    \"especializacion_A\": \" \",\r\n    \"estado_A\": \"Activo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/alumno",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"alumno"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Inscripcion",
+			"item": [
+				{
+					"name": "Search all",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/Inscrip",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"Inscrip"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search ID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/Inscrip/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"Inscrip",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/Inscrip/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"Inscrip",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomb_A\": \"Pepito\",\r\n    \"apellido_A\": \"Perez\",\r\n    \"fech_Nac\": \"2022-01-14\",\r\n    \"direc_A\": \"Juana de lara\",\r\n    \"nivel_A\": \"Nivel Inicial\",\r\n    \"ciclo_A\": \"Prescolar\",\r\n    \"especializacion_A\": \" \",\r\n    \"estado_A\": \"Activo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/alumno",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"alumno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id_Alumno\":1,\r\n    \"nomb_A\": \"Pepito1\",\r\n    \"apellido_A\": \"Perez\",\r\n    \"fech_Nac\": \"2022-01-14\",\r\n    \"direc_A\": \"Juana de lara\",\r\n    \"nivel_A\": \"Nivel Inicial\",\r\n    \"ciclo_A\": \"Prescolar\",\r\n    \"especializacion_A\": \" \",\r\n    \"estado_A\": \"Activo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/alumno",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"alumno"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
